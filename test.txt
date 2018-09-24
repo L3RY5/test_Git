@@ -1,0 +1,36 @@
+git --version : versie te zien
+mkdir test_test
+git init : project aanmaken met git, maak het een git reposotory
+
+
+/////////////////////////////////////////////////////////
+//via de cmd pushen naaar Git
+echo "# test_txt" >> README.md : 
+git init : 
+
+1) code werk goed
+
+2)commite : code klaar make + duidelijke bericht van wijziging erbij zetten
+git add README.md
+git commit -m "first commit"
+
+3) push : 
+git push -u origin master
+
+/////////////////////////////////////////////////////////
+
+//maven project pushen naar git
+1)maaak maven project aan in Netbeans;
+2)op de project staan en "git" => add;
+3)daarna "Git" => commite
+4)git => pull
+5)daarna push
+
+
+//stappen om code binnen te trekken en veranderen , daarna terug uploaden
+clone
+veranderen
+add
+commit
+pull
+push
